@@ -33,7 +33,7 @@ blueprint:
           filter:
             - domain:
                 - person
-          multiple: false
+          multiple: true
     alarm_script:
       name: Script to trigger
       description: Light Alarm Script
